@@ -12,9 +12,6 @@ if (searchBtn) {
     });
   }
 
- 
-
-
 async function checkWeather(city){
     const response = await fetch(apiUrl + city + `&appid=${apiKey}`); 
 
